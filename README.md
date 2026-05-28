@@ -37,7 +37,6 @@ pip install streamlit requests textblob pandas plotly
 # 2. Fire up the local background server
 streamlit run app.py
 
-```bash
 [User Input Ticker] ──> [Outbound REST API Client] ──> [Global News Aggregators JSON]
                                                                     │
 [Plotly Dashboard UI] <── [Pandas Matrix Conversion] <── [NLP Text Polarity Evaluation]
